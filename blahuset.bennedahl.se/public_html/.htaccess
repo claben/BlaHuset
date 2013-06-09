@@ -1,0 +1,11 @@
+RewriteEngine on 
+Options +FollowSymlinks
+RewriteBase / 
+
+RewriteRule ^(/?)$ index.php?page=home [R=301,NC,L]
+RewriteRule ^home(/?)$ index.php?page=home [R=301,NC,L]
+RewriteRule ^konstnarer(/?)$ index.php?page=konstnarer [R=301,NC,L]
+RewriteRule ^utstallningar(/?)$ index.php?page=utstallningar [R=301,NC,L]
+RewriteRule ^galleri(/?)$ index.php?page=galleri [R=301,NC,L]
+RewriteRule ^hitta(/?)$ index.php?page=hitta [R=301,NC,L]
+RewriteRule ^kontakt(/?)$ index.php?page=kontakt [R=301,NC,L]
