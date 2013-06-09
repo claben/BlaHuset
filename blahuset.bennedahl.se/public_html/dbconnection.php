@@ -1,6 +1,6 @@
 <?php
 DEFINE('DATABASE_USER', '117625-gf14712'); //sätter databaskoppling, användarnamn etc.
-DEFINE('DATABASE_PASSWORD', 'blahuset');
+DEFINE('DATABASE_PASSWORD', '*****');
 DEFINE('DATABASE_HOST', 'mysql06.citynetwork.se');
 DEFINE('DATABASE_NAME', '117625-blahuset');
 date_default_timezone_set('UTC'); //koppling för mail, används ej. Sätter datumzon
