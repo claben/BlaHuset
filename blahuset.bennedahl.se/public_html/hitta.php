@@ -1,5 +1,5 @@
-<div class="pageContent topBlock">
-	<h2>Hitta till Blå Huset</h2>
+<h2>Hitta till Blå Huset</h2>
+<div class="pageContent topBlock">	
 	<ul>
 	<li>Följ Gröndalsleden från Värnamo</li>
 	<li>Sväng vänster mot Alandsryd (liten skylt Blå Huset)</li>
@@ -8,7 +8,7 @@
 	<li>Sväng höger vid skylten Blå Huset</li>
 	</ul>
 </div>
-<div class="pageContent right topBlock pT">
+<div class="pageContent right topBlock">
 	<script type="text/javascript">
 		function initialize() {
        	var mapOptions = {

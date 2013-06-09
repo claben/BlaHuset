@@ -1,5 +1,5 @@
+<h2>Kontakta oss</h2>
 <div class="pageContent topBlock">
-	<h2>Kontakta oss</h2>
 	Har frågor angående utställningar/ evenemang? Vill boka ett besök eller helt enkelt bara komma i kontakt med kostnärerna och Blå huset?
 	Hör då av dig till oss genom att:<br>
 	Fylla i kontaktformuläret till höger.<br>
@@ -11,8 +11,8 @@
 	 
 	Skicka då ett mail till oss, gärna med ditt namn, så listar vi dig som en av Blå Husets Vänner.
 </div>
-<div class="pageContent topBlock right pT">
-<form id="contactForm" method="post" action="index.php?page=_sendmail.php">
+<div class="pageContent topBlock right">
+<form id="contactForm" method="post" action="index.php?page=_sendmail">
 	<label>Namn:</label><br>
 	<input type="text" id="name"><br>
 	<label>E-post:</label><br>
@@ -20,7 +20,7 @@
 	<label>Ämne:</label><br>
 	<input type="text" id="subject"><br>
 	<label>Medelande:</label><br>
-	<textarea type="text" id="message"></textarea>
+	<textarea type="text" id="message"></textarea><br>
 	<button id="submit" name="submit">Skicka</button>
 </form>
 </div>

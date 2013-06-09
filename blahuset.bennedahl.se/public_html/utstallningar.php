@@ -1,5 +1,5 @@
 <h2>Om utställningarna</h2>
- <div class="pageContent">
+<div class="pageContent topBlock">
 <p>Blå Huset grundades 2005, och sedan dess har Christine och Stefan Bennedahl haft ett antal utställningar och evenemang, både med och utan andra konstnärer.</p>
  
 <p>
@@ -19,10 +19,15 @@
  
 <b>2005</b> Vind och vingar, med Ulla Theorell. <br><br>
  
-Julutställning Blå huset har varje år sin julutställning med
+<b>Julutställning</b> Blå huset har varje år sin julutställning med
                     målade fönster, julmarknad, julkaffe, provencalsk
                     julkrubba som utökas varje år, och utställnig med 
                     bild, skulptur, foto och video.
                     Ett antal konstnärer medverkar.
  </p>
 </div>
+<div class="pageContent right topBlock" style="text-align:center;">
+    <img src="css/PICT0067-small.jpg" class="border"><br>
+    <!-- <img src="css/cirkus-small.jpg" class="border"><br> -->
+    <img src="css/PICT0429-small.jpg" class="border">
+<div>

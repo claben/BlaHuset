@@ -5,22 +5,23 @@ body
     background: #CADAFF;
     font-size: .80em;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
     color: #484848;
 }
 
 footer
 {
     border-style: solid none none none;
+    border-top-width: 1px;
+    border-top-color: #496077;
     color: #4e5766;
     background-color: #E0E0E0;
     padding: 8px 0px 8px 0px;
-    margin: 0px auto;
     text-align: center;
-    line-height: normal;
-    border-top-width: 1px;
-    border-top-color: #496077;
+}
+h3
+{
+	margin: 0; 
+	padding: 0;
 }
 /* NAVIGATION
 ----------------------------------------------------------*/
@@ -28,8 +29,8 @@ footer
 {
 	height: 37px;
 	background-color:#0066FF;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #496077;
+	border-bottom: 1px solid #496077;
 	text-align: center;
 }
 
@@ -61,15 +62,20 @@ footer
 .page
 {
 	padding-left: 15px;
+	padding-right: 15px;
 	min-height: 500px;
 }
 .pageContent
 {
-	width: 470px;
+	width: 460px;
 }
 .right 
 {
 	float:right;
+}
+.center
+{
+	text-align:center;
 }
 .topBlock
 {
@@ -84,15 +90,12 @@ footer
 {
 	border:solid #555 1px;
 }
-.imgContainder
+.imgContainer
 {
-	width:800px; 
-	height:600px; 
-	display:inline-block; 
-	text-align:center; 
-	background-color:#ddd; 
-	margin-left:60px; 
-	margin-right:60px;
+	height:650px; 
+	width:962px;
+	display:inline-block;
+	margin-left:-15px; 
 }
 .imgHolderSmall
 {
@@ -100,6 +103,6 @@ footer
 	display:inline-block; 
 	text-align:center; 
 	background-color:#ddd; 
-	margin:5px; 
+	margin:5px;
 	cursor:pointer;
 }
